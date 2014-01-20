@@ -1,10 +1,4 @@
 source, layer name, rgb, transparency, min scale, max scale, query, line width, linejoin, linecap, dash-array
-osm_waterv10.gdb\osm_stream,stream lod1,152 196 235,,12500,None,,2,,,
-osm_waterv10.gdb\osm_stream,stream lod0,152 196 235,,50000,12500,,1,,,
-osm_waterv10.gdb\osm_intmt_river,intermittent river lod1,152 196 235,,12500,None,,2,round,,2/2
-osm_waterv10.gdb\osm_intmt_river,intermittent river lod0,152 196 235,,400000,12500,,1,round,,2/2
-osm_waterv10.gdb\osm_river,river lod1,204 231 255,,12500,None,,2,round,round,
-osm_waterv10.gdb\osm_river,river lod0,204 231 255,,400000,12500,,1,round,round,
 osm_waterv10.gdb\osm_glacier,glacier,255 255 255,,750000,None,,,,,
 osm_waterv10.gdb\osm_pond,pond,128 181 216,,750000,None,,,,,
 osm_waterv10.gdb\osm_basin,basin,128 181 216,,750000,None,,,,,
@@ -13,5 +7,11 @@ osm_waterv10.gdb\osm_glacier 200km area,glacier,255 255 255,,12500000,750000,geo
 osm_waterv10.gdb\osm_pond 200km area,pond,128 181 216,,1500000,750000,geo_area > 200000,,,,
 osm_waterv10.gdb\osm_basin 200km area,basin,128 181 216,,6500000,750000,geo_area > 200000,,,,
 osm_waterv10.gdb\osm_lake 200km area,lake,128 181 216,,12500000,750000,geo_area > 200000,,,,
+osm_waterv10.gdb\osm_stream,stream lod1,152 196 235,,12500,None,,2,,,
+osm_waterv10.gdb\osm_stream,stream lod0,152 196 235,,50000,12500,,1,,,
+osm_waterv10.gdb\osm_intmt_river,intermittent river lod1,152 196 235,,12500,None,,2,round,,2/2
+osm_waterv10.gdb\osm_intmt_river,intermittent river lod0,152 196 235,,400000,12500,,1,round,,2/2
+osm_waterv10.gdb\osm_river,river lod1,204 231 255,,12500,None,,2,round,round,
+osm_waterv10.gdb\osm_river,river lod0,204 231 255,,400000,12500,,1,round,round,
 
 
