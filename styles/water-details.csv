@@ -1,5 +1,5 @@
 source,layer name, rgb, transparency, min scale, max scale, query, line width, linejoin, linecap, dash-array
-osm_waterv10.gdb\osm_intmt_river,intermittent river lod1,152 196 235,,12500,None,,2,round,,,2/2
+osm_waterv10.gdb\osm_intmt_river,intermittent river lod1,,152 196 235,,12500,None,,2,round,,,2/2
 osm_waterv10.gdb\osm_intmt_river,intermittent river lod0,,152 196 235,,400000,12500,,1,round,,,2/2
 osm_waterv10.gdb\osm_river,river lod1,204 231 255,,12500,None,,2,round,round,,
 osm_waterv10.gdb\osm_river,river lod0,204 231 255,,400000,12500,,1,round,round,,
