@@ -6,7 +6,7 @@ landuse (hedge, barrier, attraction, cemetery, military, park, golf course, fore
 
 base (Natural Earth I, OSM Land and Water WGS84 Bounding Box) Credits - Made with Natural Earth., © OpenStreetMap contributors
 
-(870MB) http://download.georemedy.com/georemedy-osm-arcgis/georemedy%20Base.lpk
+(870MB) http://download.georemedy.com/georemedy-osm-arcgis/lpk/georemedy%20Base.lpk
 
 The intent of this conversion was to make OpenStreetMap data available for a disconnected network in WGS84 (EPSG:4326), for use in both an ESRI proprietary application (ArcGIS Desktop) and opensource application (QGIS Desktop).
 
