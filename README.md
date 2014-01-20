@@ -1,5 +1,9 @@
 A collection of scripts and documents that assist in the workflow of converting OpenStreetMap planet pbf files into ESRI File Geodatabase (Version 10) for use on a disconnected network. The output of the datasets are in WGS84 and are loosely based on the Open MapQuest style.
 
+current layers available:
+
+landuse (hedge, barrier, attraction, cemetery, military, park, golf course, forest, beach, parking lot, stadium, school, hospital, shopping center, airport, runway, residential and barracks) - © OpenStreetMap contributors
+
 The intent of this conversion was to make OpenStreetMap data available for a disconnected network in WGS84 (EPSG:4326), for use in both an ESRI proprietary application (ArcGIS Desktop) and opensource application (QGIS Desktop).
 
 Note: The conversion process, to include cleaning of geometries, is done using Open Source Geospatial Software. The software can be downloaded as a bundle at http://www.osgeo.org/ or by downloading the following components:
