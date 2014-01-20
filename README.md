@@ -2,7 +2,11 @@ A collection of scripts and documents that assist in the workflow of converting 
 
 Current Layers Available:
 
-landuse (hedge, barrier, attraction, cemetery, military, park, golf course, forest, beach, parking lot, stadium, school, hospital, shopping center, airport, runway, residential and barracks) - © OpenStreetMap contributors
+landuse (hedge, barrier, attraction, cemetery, military, park, golf course, forest, beach, parking lot, stadium, school, hospital, shopping center, airport, runway, residential and barracks) Credits - © OpenStreetMap contributors
+
+base (Natural Earth I, OSM Land and Water WGS84 Bounding Box) Credits - Made with Natural Earth., © OpenStreetMap contributors
+
+(870MB) http://download.georemedy.com/georemedy-osm-arcgis/georemedy%20Base.lpk
 
 The intent of this conversion was to make OpenStreetMap data available for a disconnected network in WGS84 (EPSG:4326), for use in both an ESRI proprietary application (ArcGIS Desktop) and opensource application (QGIS Desktop).
 
