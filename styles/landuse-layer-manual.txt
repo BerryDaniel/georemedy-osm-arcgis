@@ -1,0 +1,19 @@
+attraction - 			232,209,186 // 20% transparency // 750000 - None 
+cemetery -				97,158,58	// 85% transparency // 200000 - None
+military -				122,148,30	// 75% transparency // 750000 - None 
+park - 					0,166,53	// 80% transparency // 750000 - None 
+golf_course -			136,204,0 	// 75% transparency	// 25000 - None
+forest - 				0,166,53 	// 75% transparency	// 750000 - None
+beach - 				245,239,215 //					// 200000 - None
+parking_lot -			255,254,242 //					// 750000 - None
+stadium -				232,209,186 //					// 100000 - None
+school -				224,219,198 //					// 100000 - None
+hospital -				198,224,224 //					// 100000 - None
+shopping_center -		230,227,195 //					// 100000 - None
+airport -				221,222,237 //					// 750000 - None
+runway -				180,180,180 //					// 750000 - None
+residential -			240,238,228 //					// 750000 - None
+barracks -				255,143,143 //					// 750000 - None
+park 200km area - 		40,184,68	// 90% transparency	// 1500000 - 750000
+forest 200km area - 	0,184,68	// 75% transparency	// 1500000 - 750000
+military 200km area - 	122,148,30	// 90% transparency	// 6500000 - 750000
