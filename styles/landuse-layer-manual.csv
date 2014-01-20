@@ -1,6 +1,6 @@
 source,layer name, rgb, transparency, min scale, max scale, query, line width
-osm_landmarkv10.gdb\osm_hedge,hedge,144 194 144,,12500,None,1.3
-osm_landmarkv10.gdb\osm_barrier,barrier,180 180 180,,12500,None,0.5
+osm_landmarkv10.gdb\osm_hedge,hedge,144 194 144,,12500,None,,1.3
+osm_landmarkv10.gdb\osm_barrier,barrier,180 180 180,,12500,None,,0.5
 osm_landmarkv10.gdb\osm_attraction,attraction,232 209 186,20%,750000,None,, 
 osm_landmarkv10.gdb\osm_cemetery,cemetery,97 158 58,85%,200000,None,,
 osm_landmarkv10.gdb\osm_military,military,122 148 30,75%,750000,None,,
