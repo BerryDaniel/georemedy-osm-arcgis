@@ -1,3 +1,5 @@
+ogr2ogr -gt 500000 -update -append --config FGDB_BULK_LOAD YES -progress -f "FileGDB" osm_landmarkv10.gdb "PG:host=localhost user=postgres dbname=osm_latest password=add_password" -sql "select * from osm_hedge" -nln osm_hedge -nlt LINESTRING -a_srs EPSG:4326 -skipfailures
+
 ogr2ogr -gt 500000 -update -append --config FGDB_BULK_LOAD YES -progress -f "FileGDB" osm_landmarkv10.gdb "PG:host=localhost user=postgres dbname=osm_latest password=add_password" -sql "select * from osm_barrier" -nln osm_barrier -nlt LINESTRING -a_srs EPSG:4326 -skipfailures
 
 ogr2ogr -gt 500000 -update -append --config FGDB_BULK_LOAD YES -progress -f "FileGDB" osm_landmarkv10.gdb "PG:host=localhost user=postgres dbname=osm_latest password=add_password" -sql "select * from osm_airport" -nln osm_airport -nlt MULTIPOLYGON -a_srs EPSG:4326 -skipfailures
