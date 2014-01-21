@@ -2,6 +2,8 @@ A collection of scripts and documents that assist in the workflow of converting 
 
 Current Layers Available:
 
+BORDER - (country, state and county) - © OpenStreetMap contributors
+
 WATER - (glacier, lake, basin, pond, river, intermittent river and stream) Credits - © OpenStreetMap contributors
 
 LANDUSE - (hedge, barrier, attraction, cemetery, military, park, golf course, forest, beach, parking lot, stadium, school, hospital, shopping center, airport, runway, residential and barracks) Credits - © OpenStreetMap contributors
@@ -17,6 +19,8 @@ PostgreSQL with (PostGIS) - http://www.postgresql.org/, GDAL/OGR version 1.10 - 
 A free tool to view the outputed File Geodatabases is QGIS and can be downloaded at http://www.qgis.org/.
 
 World coverage WGS84ArcGIS Layer packages available for download:
+
+(152MB) http://download.georemedy.com/georemedy-osm-arcgis/lpk/georemedy%20Border.lpk
 
 (6.5GB) http://download.georemedy.com/georemedy-osm-arcgis/lpk/georemedy%20Water.lpk
 

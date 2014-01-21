@@ -1,0 +1,13 @@
+source, layer name, rgb, transparency, min scale, max scale, query, line width, linejoin, linecap, dash-array
+osm_borderv10.gdb\osm_county_border,county lod1,170 170 170,75%,200000,None,,1,round,,6/2-2-2
+osm_borderv10.gdb\osm_county_border,county casing lod2,191 191 191,95%,25000,None,,8,round,,
+osm_borderv10.gdb\osm_county_border,county casing lod1,191 191 191,80%,200000,25000,,4,round,,
+osm_borderv10.gdb\osm_county_border,county lod0,140 140 140,75%,1500000,200000,,1,round,,6/2-2-2
+osm_borderv10.gdb\osm_county_border,county casing lod0,191 191 191,80%,1500000,200000,,2,round,,
+osm_borderv10.gdb\osm_state_border,state lod1,0 0 0,50%,3000000,50000,,1,round,,12/2-2-2
+osm_borderv10.gdb\osm_state_border,state casing lod1,82 79 80,50%,3000000,50000,,3,round,,
+osm_borderv10.gdb\osm_state_border,state lod0,60 80 48,85%,12500000,3000000,,.5,round,,6/1-1-1
+osm_borderv10.gdb\osm_state_border,state casing lod0,82 79 80,90%,25000000,3000000,,3,round,,
+osm_borderv10.gdb\osm_country_border,country lod1,109 128 76,65%,12500000,50000,,1,round,,6/2-2-2
+osm_borderv10.gdb\osm_country_border,country lod0,109 128 76,75%,50000000,12500000,,.5,round,,
+osm_borderv10.gdb\osm_country_border,country casing lod0,191 191 0,90%,25000000,50000,,3,round,,
