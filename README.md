@@ -2,11 +2,11 @@ A collection of scripts and documents that assist in the workflow of converting 
 
 Current Layers Available:
 
-water (glacier, lake, basin, pond, river, intermittent river and stream) Credits - © OpenStreetMap contributors
+WATER - (glacier, lake, basin, pond, river, intermittent river and stream) Credits - © OpenStreetMap contributors
 
-landuse (hedge, barrier, attraction, cemetery, military, park, golf course, forest, beach, parking lot, stadium, school, hospital, shopping center, airport, runway, residential and barracks) Credits - © OpenStreetMap contributors
+LANDUSE - (hedge, barrier, attraction, cemetery, military, park, golf course, forest, beach, parking lot, stadium, school, hospital, shopping center, airport, runway, residential and barracks) Credits - © OpenStreetMap contributors
 
-base (Natural Earth I, OSM Land and Water WGS84 Bounding Box) Credits - Made with Natural Earth., © OpenStreetMap contributors
+BASE - (Natural Earth I, OSM Land and Water WGS84 Bounding Box) Credits - Made with Natural Earth., © OpenStreetMap contributors
 
 The intent of this conversion was to make OpenStreetMap data available for a disconnected network in WGS84 (EPSG:4326), for use in both an ESRI proprietary application (ArcGIS Desktop) and opensource application (QGIS Desktop).
 
