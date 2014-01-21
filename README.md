@@ -18,6 +18,6 @@ A free tool to view the outputed File Geodatabases is QGIS and can be downloaded
 
 World coverage WGS84ArcGIS Layer packages available for download:
 
-(6.5GB) http://download.georemedy.com/georemedy-osm-arcgis/lpk/georemedy%20Water.lpk
-(6.2GB) http://download.georemedy.com/georemedy-osm-arcgis/lpk/georemedy%20Landuse.lpk
-(871MB) http://download.georemedy.com/georemedy-osm-arcgis/lpk/georemedy%20Base.lpk
+(6.5GB) http://download.georemedy.com/georemedy-osm-arcgis/lpk/georemedy%20Water.lpk\n
+(6.2GB) http://download.georemedy.com/georemedy-osm-arcgis/lpk/georemedy%20Landuse.lpk\n
+(871MB) http://download.georemedy.com/georemedy-osm-arcgis/lpk/georemedy%20Base.lpk\n
