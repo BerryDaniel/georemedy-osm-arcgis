@@ -1,5 +1,5 @@
-ogr2ogr -gt 500000 -update -append --config FGDB_BULK_LOAD YES -progress -f "FileGDB" osm_borderv10.gdb "PG:host=localhost user=postgres dbname=osm_latest password=120minute" -sql "select * from osm_country_border" -nln osm_country_border -nlt LINESTRING -a_srs EPSG:4326 -skipfailures
+ogr2ogr -gt 500000 -update -append --config FGDB_BULK_LOAD YES -progress -f "FileGDB" osm_borderv10.gdb "PG:host=localhost user=postgres dbname=osm_latest password=postgres" -sql "select * from osm_country_border" -nln osm_country_border -nlt LINESTRING -a_srs EPSG:4326 -skipfailures
 
-ogr2ogr -gt 500000 -update -append --config FGDB_BULK_LOAD YES -progress -f "FileGDB" osm_borderv10.gdb "PG:host=localhost user=postgres dbname=osm_latest password=120minute" -sql "select * from osm_state_border" -nln osm_state_border -nlt LINESTRING -a_srs EPSG:4326 -skipfailures
+ogr2ogr -gt 500000 -update -append --config FGDB_BULK_LOAD YES -progress -f "FileGDB" osm_borderv10.gdb "PG:host=localhost user=postgres dbname=osm_latest password=postgres" -sql "select * from osm_state_border" -nln osm_state_border -nlt LINESTRING -a_srs EPSG:4326 -skipfailures
 
-ogr2ogr -gt 500000 -update -append --config FGDB_BULK_LOAD YES -progress -f "FileGDB" osm_borderv10.gdb "PG:host=localhost user=postgres dbname=osm_latest password=120minute" -sql "select * from osm_county_border" -nln osm_county_border -nlt LINESTRING -a_srs EPSG:4326 -skipfailures
+ogr2ogr -gt 500000 -update -append --config FGDB_BULK_LOAD YES -progress -f "FileGDB" osm_borderv10.gdb "PG:host=localhost user=postgres dbname=osm_latest password=postgres" -sql "select * from osm_county_border" -nln osm_county_border -nlt LINESTRING -a_srs EPSG:4326 -skipfailures

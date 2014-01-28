@@ -1,0 +1,5 @@
+Function FindLabel ( [ref] )
+  strLabel = [ref]
+  If Len([ref]) >5 Then strLabel = ""
+  FindLabel = strLabel
+End Function

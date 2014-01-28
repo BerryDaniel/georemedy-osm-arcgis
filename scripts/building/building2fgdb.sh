@@ -1,0 +1,1 @@
+ogr2ogr -gt 500000 -update -append --config FGDB_BULK_LOAD YES -progress -f "FileGDB" osm_buildingv10.gdb "PG:host=localhost user=postgres dbname=osm_latest password=postgres" -sql "select * from osm_building" -nln osm_building -nlt MULTIPOLYGON -a_srs EPSG:4326 -skipfailures
