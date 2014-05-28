@@ -61,25 +61,25 @@ create view geonames_continent as
 select geonameid, cast(fcode as varchar(10)) as fcode, cast(asciiname as varchar(200)) as name, moddate::timestamp as last_modified, the_geom from world.geoname where fcode = 'CONT';
 
 create view geonames_country 
-select geonameid, cast(fcode as varchar(10)) as fcode, cast(asciiname as varchar(200)) as name, moddate::timestamp as last_modified, the_geom from world.geoname where fcode = 'CONT'; where fcode = 'PCLI';
+select geonameid, cast(fcode as varchar(10)) as fcode, cast(asciiname as varchar(200)) as name, moddate::timestamp as last_modified, the_geom from world.geoname where fcode = 'PCLI';
 
 create view geonames_state
-select geonameid, cast(fcode as varchar(10)) as fcode, cast(asciiname as varchar(200)) as name, moddate::timestamp as last_modified, the_geom from world.geoname where fcode = 'CONT'; where fcode = 'ADM1';
+select geonameid, cast(fcode as varchar(10)) as fcode, cast(asciiname as varchar(200)) as name, moddate::timestamp as last_modified, the_geom from world.geoname where fcode = 'ADM1';
 
 create view geonames_county
-select geonameid, cast(fcode as varchar(10)) as fcode, cast(asciiname as varchar(200)) as name, moddate::timestamp as last_modified, the_geom from world.geoname where fcode = 'CONT'; where fcode = 'ADM2';  
+select geonameid, cast(fcode as varchar(10)) as fcode, cast(asciiname as varchar(200)) as name, moddate::timestamp as last_modified, the_geom from world.geoname where fcode = 'ADM2';  
 
 create view geonames_capital
-select geonameid, cast(fcode as varchar(10)) as fcode, cast(asciiname as varchar(200)) as name, moddate::timestamp as last_modified, the_geom from world.geoname where fcode = 'CONT'; where fcode = 'PPLC';
+select geonameid, cast(fcode as varchar(10)) as fcode, cast(asciiname as varchar(200)) as name, moddate::timestamp as last_modified, the_geom from world.geoname where fcode = 'PPLC';
 
 create view geonames_metropolis
-select geonameid, cast(fcode as varchar(10)) as fcode, cast(asciiname as varchar(200)) as name, moddate::timestamp as last_modified, the_geom from world.geoname where fcode = 'CONT'; where (fclass = 'P' and fcode not in ('PPLC')) and population >= 1000000;
+select geonameid, cast(fcode as varchar(10)) as fcode, cast(asciiname as varchar(200)) as name, moddate::timestamp as last_modified, the_geom from world.geoname where (fclass = 'P' and fcode not in ('PPLC')) and population >= 1000000;
 
 create view geonames_large_city
-select geonameid, cast(fcode as varchar(10)) as fcode, cast(asciiname as varchar(200)) as name, moddate::timestamp as last_modified, the_geom from world.geoname where fcode = 'CONT'; where (fclass = 'P' and fcode not in ('PPLC')) and population between 100000 and 999999;
+select geonameid, cast(fcode as varchar(10)) as fcode, cast(asciiname as varchar(200)) as name, moddate::timestamp as last_modified, the_geom from world.geoname where (fclass = 'P' and fcode not in ('PPLC')) and population between 100000 and 999999;
 
 create view geonames_city
-select geonameid, cast(fcode as varchar(10)) as fcode, cast(asciiname as varchar(200)) as name, moddate::timestamp as last_modified, the_geom from world.geoname where fcode = 'CONT'; where (fclass = 'P' and fcode not in ('PPLC')) and population between 10000 and 99999;
+select geonameid, cast(fcode as varchar(10)) as fcode, cast(asciiname as varchar(200)) as name, moddate::timestamp as last_modified, the_geom from world.geoname where (fclass = 'P' and fcode not in ('PPLC')) and population between 10000 and 99999;
 
 create view geonames_town
-select geonameid, cast(fcode as varchar(10)) as fcode, cast(asciiname as varchar(200)) as name, moddate::timestamp as last_modified, the_geom from world.geoname where fcode = 'CONT'; where (fclass = 'P' and fcode not in ('PPLC')) and population between 100 and 9999;
+select geonameid, cast(fcode as varchar(10)) as fcode, cast(asciiname as varchar(200)) as name, moddate::timestamp as last_modified, the_geom from world.geoname where (fclass = 'P' and fcode not in ('PPLC')) and population between 100 and 9999;
